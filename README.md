@@ -47,9 +47,8 @@ To solve **500+** DSA problems and master fundamental concepts for:
 
 ## 🔗 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-profile/)
-- [Twitter](https://twitter.com/yourhandle)
-- [Portfolio](https://your-portfolio-link.com)
+- [LinkedIn](https://www.linkedin.com/in/chetangaurkhede/)
+- [Portfolio](https://chetangaurkhede.netlify.app/)
 
 ---
 
