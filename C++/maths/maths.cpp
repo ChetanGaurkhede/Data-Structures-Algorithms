@@ -98,8 +98,23 @@ void printAllDivisers(int n){
   }
 }
 
+bool isPallindromeUsingNumber(int n){
+  if(n<0) return false;
+  long rev = 0;
+  int copy = n;
+
+  while(n>0){
+    rev = rev*10 + n%10;
+    n = n/10;
+  }
+
+  return copy == rev;
+}
+
+
 
 int main(){
-  reversNumber(-12345);
+
+  cout<<(isPallindromeUsingNumber(1212))? true:false;
   return 0;
 }
