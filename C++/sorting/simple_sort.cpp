@@ -53,16 +53,19 @@ void insertion_sort(int arr[], int n) // Worst and Everage Time complexity = n^2
   }
 }
 
+
+
+void recursive_section_sort(int arr, int n){
+  
+}
+
 int main()
 {
-  int n;
-  cin >> n;
-  int arr[n];
-  for (int i = 0; i < n; i++)
-    cin >> arr[i];
 
-  insertion_sort(arr, n);
-  for (int i = 0; i < n; i++)
+  vector<int> arr={4,3,6,5,7,9,2};
+
+  // merge_sort(arr, 0, 6);
+  for (int i = 0; i < arr.size(); i++)
   {
     cout << arr[i] << " ";
   }
